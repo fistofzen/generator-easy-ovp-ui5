@@ -1,6 +1,6 @@
 {
   "name": "generator-easy-ovp-ui5",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "generator-easy-ovp-ui5 is a Yeoman generator which enables you to create simple OpenUI5-based SAP OVP pages within seconds.",
   "main": "index.js",
   "scripts": {

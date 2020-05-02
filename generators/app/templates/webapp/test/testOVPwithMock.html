@@ -43,7 +43,7 @@
 			},
 			applications: {
 				"OVP-display": {
-					"additionalInformation": "SAPUI5.Component=testnamespace.test",
+					"additionalInformation": "SAPUI5.Component=<%=namespace%>.<%=projectname%>",
 					"applicationType": "URL",
 					"url": "../"
 				}
@@ -57,7 +57,7 @@
 			data-sap-ui-libs="sap.m, sap.ushell"
 			data-sap-ui-theme="sap_fiori_3"
 			data-sap-ui-compatVersion="edge"
-			data-sap-ui-resourceroots='{"testnamespace.test": "../"}'
+			data-sap-ui-resourceroots='{"<%=namespace%>.<%=projectname%>": "../"}'
 			data-sap-ui-frameOptions='allow'> // NON-SECURE setting for testing environment
 	</script>
 	<script type="text/javascript">
@@ -65,7 +65,7 @@
 	        //Fake LREP
 	        jQuery.sap.require("sap.ui.fl.FakeLrepConnector");
 	        sap.ui.fl.FakeLrepConnector.enableFakeConnector("fakeLRep.json");
-	        var sNamespace = "testnamespace.test";
+	        var sNamespace = "<%=namespace%>.<%=projectname%>";
 	        sNamespace = sNamespace.replace(/\./g, "/");
 			sap.ui.require([
 				sNamespace + "/localService/mockserver"

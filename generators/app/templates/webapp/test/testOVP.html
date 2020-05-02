@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-	<title>testtitle</title>
+	<title><%=description%></title>
 	<!-- Bootstrap the unified shell in sandbox mode for standalone usage.
 
          The renderer is specified in the global Unified Shell configuration object "sap-ushell-config".
@@ -43,7 +43,7 @@
 			},
 			applications: {
 				"OVP-display": {
-					"additionalInformation": "SAPUI5.Component=testnamespace.test",
+					"additionalInformation": "SAPUI5.Component=<%=namespace%>.<%=projectname%>",
 					"applicationType": "URL",
 					"url": "../"
 				}
@@ -57,7 +57,7 @@
 			data-sap-ui-libs="sap.m, sap.ushell"
 			data-sap-ui-theme="sap_fiori_3"
 			data-sap-ui-compatVersion="edge"
-			data-sap-ui-resourceroots='{"testnamespace.test": "../"}'
+			data-sap-ui-resourceroots='{"<%=namespace%>.<%=projectname%>": "../"}'
 			data-sap-ui-frameOptions='allow'> // NON-SECURE setting for testing environment
 	</script>
 	<script type="text/javascript">
