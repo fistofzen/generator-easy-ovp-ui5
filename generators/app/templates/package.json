@@ -1,6 +1,6 @@
 {
   "name":  "<%= projectname %>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "<%= description%>",
   "devDependencies": {
     "@ui5/cli": "1.13.0",

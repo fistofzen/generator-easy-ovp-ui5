@@ -15,7 +15,7 @@ module.exports = class extends Generator {
                 }
                 return "Please use alpha numeric characters.";
             },
-            default: "myUI5App"
+            default: "SampleOVP"
         }, {
             type: "input",
             name: "namespace",
