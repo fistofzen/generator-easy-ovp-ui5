@@ -1,0 +1,30 @@
+{
+  "name": "generator-easy-ovp-ui5",
+  "version": "0.0.1",
+  "description": "generator-easy-ovp-ui5 is a Yeoman generator which enables you to create simple OpenUI5-based SAP OVP pages within seconds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fistofzen/generator-easy-ovp-ui5.git"
+  },
+  "keywords": [
+    "sapui5",
+    "overview",
+    "page",
+    "ovp",
+    "openui5",
+    "sap"
+  ],
+  "author": "'Huseyin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fistofzen/generator-easy-ovp-ui5/issues"
+  },
+  "homepage": "https://github.com/fistofzen/generator-easy-ovp-ui5#readme",
+  "dependencies": {
+    "yeoman-generator": "4.9.0"
+  }
+}

@@ -1,0 +1,4 @@
+node_modules
+.yo-repository
+.git
+package-lock.json
